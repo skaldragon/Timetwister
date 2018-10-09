@@ -1,11 +1,11 @@
 ﻿function Time-Twister{
 <#
 	.SYNOPSIS
-		This function has the capability to modify timestamps with either custom or blended timestamps
+	This function has the capability to modify timestamps with either custom or blended timestamps
 	.PARAMETER FilePath
-		The local or UNC folder/file path that you would like to change.
+	The local or UNC folder/file path that you would like to change.
 	.PARAMETER $a,$w,$c
-		-a Change the AccessTime of the file/folder
+	-a Change the AccessTime of the file/folder
         -w Change the WriteAccessTime of the file/folder
         -c Change the CreationTime of the file/folder
 	.PARAMETER (Switch)Blend
